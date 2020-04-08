@@ -1,0 +1,176 @@
+
+body {
+height:70%;
+  
+}
+.main {
+  display: flex;	
+  flex-flow: row nowrap;
+	height:620px;
+	align-content: center;
+	border: 3px color rgba(31, 28, 2, 0.87);
+	justify-content: space-around;
+	background-image:linear-gradient(red, orange, rgb(199, 199, 115), rgba(46, 63, 46, 0.205), rgba(189, 243, 127, 0.432), rgba(218, 83, 173, 0.281));
+	/*align-items: center;*/
+	flex: 1 0 1;
+}
+header {
+  display:flex;
+  border: 1px solid #c3c3c3;
+  justify-content:space-between;
+  background: #ebebeb;
+  align-items: center;
+	background-image:linear-gradient(to right, red, orange, yellow, rgba(50, 141, 50, 0.6), rgba(0, 0, 255, 0.51), rgba(127, 83, 147, 0.76));
+}
+
+h1 {
+	font-size: 300%;
+	margin-top: 40px;
+	padding-top: 0.05em;
+	color: rgba(91, 138, 245, 0.97);
+	text-align: center;
+}
+h2 {
+	padding-top: 0.6em;
+	font-size:300%;
+	text-align: center;
+	margin-top: -60px;
+	color: rgba(91, 138, 245, 0.97);
+}
+
+h3 {
+	/*padding-top: 0.6em;*/
+	font-size:250%;
+	text-align: center;
+	color: rgba(22, 20, 4, 0.87);
+}
+h4 {
+	/*padding-top: 0.6em;*/
+	font-size:150%;
+	text-align: center;
+	color:whitesmoke;
+}
+
+.p1 {
+color: silver;
+}
+.p2{
+text-decoration: underline;
+
+}
+.img1 {/*picture of logo*/
+	background-position:top;
+	align-self: left;
+	background-size:cover;
+	Padding: 0.1em;
+	/*width: 160px;*/
+}
+
+
+.nav {
+  background: salmon;
+  height: 100%;
+  border: 2px solid rgba(217, 229, 71, 0.99);
+  font-size: 30px;	
+/*	position: fixed; /* Make it stick/fixed */
+  top: -50px; /* Hide the navbar 50 px outside of the top view */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+}
+li a {
+  color: rgba(21, 85, 232, 0.97);
+  padding: 12px 30px;
+  text-decoration: none;
+  text-align: left;	
+}
+li:last-child {
+  border: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #4b90e2;
+  color: white;
+}
+.img2 { *picture of middle section*/
+	/*width: Auto;*/
+  /*height: 920px;*/
+	background-repeat: no-repeat;
+	padding: 0.1em;
+	background-position:top;
+	border: 1px solid #555;
+}
+
+.img3 {/*picture of middle section*/
+  /*height: 920px;*/
+	background-repeat: no-repeat;
+	padding:0.1em;
+	background-repeat: no-repeat;
+	background-position: top;
+	border: 1px solid #555;
+	align-self: flex-end;
+}
+.img4 { /*todos-section2*/
+	background-position: top;
+	background-repeat: no-repeat;
+	padding:0.1em;
+	border: 1px solid #555;
+	display:block;
+	Margin: 0 auto;
+}
+
+.img5 { /*last picture of sect 3*/
+		padding:0.1em;
+		border: 1px solid #555;
+}	
+
+/*section of Two Picture-and-event*/
+.middle1 {
+	border: 4px solid white;	
+	margin-right: 1 px;
+}
+.middle2 {
+	/*height: 920px;*/
+	padding: 2px;
+	border: 4px solid rgba(78, 76, 76, 0.158);	
+}
+.middle3 {
+	/*height: 920px;*/
+	border: 4px solid rgba(235, 12, 12, 0.93);	
+}
+
+.sect2 {/*Section a quien servimos, picture todo*/
+	border: 23px solid hsla(0, 87%, 48%, 0.904);
+	height:720px;
+	width: 1250px;
+	background-image: radial-gradient(circle, rgba(230, 36, 133, 0.671), rgba(221, 201, 201, 0.212)), url(images/pictidene05.jpg);
+	background-size:contain;
+	margin: 0 auto;
+
+	}
+
+.sect3 {/*Section comunidad*/
+		border: 23px solid hsla(138, 93%, 32%, 0.904);	
+		height: 520px;
+		width: 1250px;
+		background-image: linear-gradient(rgba(226, 223, 21, 0.548), rgba(69, 240, 35, 0.247)), url(images/pictidene20.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+  	margin: 0 auto;
+}
+
+.footer {
+  background: rgba(247, 98, 98, 0.99);
+	border: 1px solid #555;
+}
+	
+
